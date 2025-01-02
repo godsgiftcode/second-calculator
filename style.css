@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.general-div{
+    height: 31.4rem;
+    width: 18rem;
+    border: 2px solid black;
+    margin: 0 auto;
+    margin-top: 8%;
+    background: black;
+}
+.div-top{
+    border: 3px solid rgb(71, 59, 59);
+    margin-bottom: 2px;
+    height: 6rem;
+    color: white;
+    background: black;
+    padding: 1rem;
+}
+.div-bottom{
+    height: fit-content;
+}
+.div-bottom p{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.div-bottom button{
+    width: 4rem;
+    height: 4rem;
+    cursor: pointer;
+}
